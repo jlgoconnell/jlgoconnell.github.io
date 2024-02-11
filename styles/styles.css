@@ -44,7 +44,13 @@ p {
     color: #586e75;
 }
 
-@media (orientation: portrait) and (max-width: 15cm) {
+@media (max-width: 15cm) {
+    .main {
+        width: 90%;
+    }
+}
+
+@media (max-width: 900px) {
     .main {
         width: 90%;
     }
