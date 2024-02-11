@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(255, 232, 204);
+    margin: auto;
+    max-width: 15cm;
+  }
+  h1 {
+    color: black;
+    text-align: center;
+  }
+  p {
+    color: black;
+    text-align: justify;
+  }
+  footer {
+    text-align: right;
+    color: black;
+  }
