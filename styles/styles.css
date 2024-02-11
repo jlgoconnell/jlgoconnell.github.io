@@ -50,7 +50,7 @@ p {
     }
 }
 
-@media (max-width: 600px) {
+@media (orientation: portrait) {
     .main {
         width: 90%;
     }
