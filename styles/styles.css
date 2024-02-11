@@ -1,44 +1,61 @@
 body {
-background-color: #fdf6e3;
-margin: 0%;
+    background-color: #fdf6e3;
+    margin: 0%;
 }
+
 h1 {
-color: #002b36;
-text-align: center;
+    color: #002b36;
+    text-align: center;
 }
+
+footer {
+    text-align: right;
+    color: #002b36;
+}
+
 .main {
     margin: auto;
     text-align: center;
-    width: 500px;
-    min-width: 15cm;
+    width: 50%;
 }
+
 p {
-color: #002b36;
-text-align: justify;
+    color: #002b36;
+    text-align: justify;
 }
-footer {
-text-align: right;
-color: #002b36;
-}
+
 .navbar {
-margin: 0%;
-display: block;
-padding: 14px 16px;
-background-color: #002b36;
-width: 100%;
-overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #002b36;
+    width: 100%;
 }
 .navbar a {
-color: #93a1a1;
-width: 100%;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
+    color: #93a1a1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 .navbar a:hover {
-background-color: #586e75;
+    background-color: #586e75;
 }
 .navbar a.active {
     background-color: #fdf6e3;
-    color: black;
+    color: #586e75;
+}
+
+@media (orientation: portrait) or (orientation: landscape) {
+    .main {
+        margin: auto;
+        text-align: center;
+        width: 13.5cm;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 15cm) {
+    .main {
+        margin: auto;
+        text-align: center;
+        width: 90%;
+    }
 }
