@@ -16,7 +16,7 @@ footer {
 .main {
     margin: auto;
     text-align: center;
-    width: 50%;
+    width: 13.5cm;
 }
 
 p {
@@ -44,18 +44,9 @@ p {
     color: #586e75;
 }
 
-@media (orientation: portrait) or (orientation: landscape) {
-    .main {
-        margin: auto;
-        text-align: center;
-        width: 13.5cm;
-    }
-}
-
 @media (orientation: portrait) and (max-width: 15cm) {
     .main {
-        margin: auto;
-        text-align: center;
         width: 90%;
     }
 }
+
