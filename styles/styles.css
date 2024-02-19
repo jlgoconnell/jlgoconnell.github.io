@@ -1,5 +1,5 @@
 body {
-    background-color: #fdf6e3;
+    background-color: rgb(253, 246, 227);
     margin: 0%;
 }
 
@@ -11,11 +11,24 @@ h1 {
 footer {
     text-align: right;
     color: #002b36;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 72px;
+    text-align: center;
+    line-height: 450px;
+    color: black;
+    background-image: linear-gradient(to bottom, rgba(253, 246, 227, 0), rgba(253, 246, 227, 1)), url("../images/thesis_screenshot.jpg");
+    color: black;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
 }
 
 .main {
     margin: auto;
-    text-align: center;
+    text-align: justify;
     width: 13.5cm;
 }
 
@@ -63,6 +76,9 @@ p {
     }
     h1 {
         font-size: 72px;
+    }
+    .title {
+        font-size: 96px;
     }
     .main {
         width: 95%;
