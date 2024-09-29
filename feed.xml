@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>James&#x27; site</title>
+    <link href="https://github.com/jlgoconnell/jlgoconnell.github.io/feed.xml" rel="self" />
+    <link href="https://github.com/jlgoconnell/jlgoconnell.github.io" />
+    <updated>1970-01-01T09:30:00+09:30</updated>
+    <author>
+        <name>James O&#x27;Connell</name>
+    </author>
+    <id>https://github.com/jlgoconnell/jlgoconnell.github.io</id>
+
+</feed>

@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "James&#x27; site",
+    "description": "",
+    "home_page_url": "https://github.com/jlgoconnell/jlgoconnell.github.io",
+    "feed_url": "https://github.com/jlgoconnell/jlgoconnell.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "James O&#x27;Connell"
+    },
+    "items": [
+    ]
+}
